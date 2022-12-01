@@ -1,0 +1,113 @@
+
+   .dark-style__btn--sun {
+      display: none;
+   }
+.dark-style__btn--moon {
+   display: block;
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   background-color: #222;
+   box-shadow: inset -6px -6px 0px 0px #fff;
+   transition: all .3s;
+}
+
+body {
+   background-color: #222222;
+   color: #e1e3e6;
+}
+.button {
+   background-color: #00302C;
+   color: #63D4CA;
+}
+
+.button::before{
+   border: 5px solid #63D4CA;
+   border-bottom-color: transparent;
+   border-right-color: transparent;
+}
+.button::after{
+   border: 5px solid #63D4CA;
+   border-top-color: transparent;
+   border-left-color: transparent;
+}
+.go-button circle {
+   fill: #00302C;
+}
+.go-button:hover circle {
+   fill: #e1e3e6;
+}
+.go-button path {
+   stroke: #63D4CA;
+}
+.go-button:hover path {
+   stroke: #00302C;
+}
+.header__fixed {
+   background-color: #222;
+   color: #00302C;
+}
+.local__info-item::after {
+   background-color: #63D4CA;
+}
+.local__link:hover {
+   box-shadow: 0px 4.03852px 10.0963px rgba(255, 255, 255, 0.2);
+}
+.about__publication-item::after {
+   background-color: #50b7ea;
+}
+.why__acc-head {
+   color: #00302C;
+}
+.why__acc-text {
+   background-color: #424242;
+   box-shadow: none;
+}
+.agenda__card-container {
+   color: #00302C;
+}
+.speakers__people {
+   color: #00302C;
+}
+.gva__grid-item:hover {
+   background-color: #5f6363;
+}
+.gva__grid-item::before {
+   background-color: #438d87;
+}
+.attends__grid-item:hover {
+   background-color: #5f6363;
+}
+.attends__grid-item::before {
+   background-color: #438d87;
+}
+.video-content__list {
+   background-color: #424242;
+}
+.ticket__table-calumn--hover {
+   color: #00302C;
+}
+.ticket__acc-price {
+   color: #00302C;
+}
+.ticket__acc-func {
+   background-color: #424242;
+   box-shadow: none;
+}
+.news__content-text {
+   color: #00302C;
+}
+.burger--active::after {
+   background-color: #F7FFFE;
+}
+.burger--active::before {
+   background-color: #F7FFFE;
+
+}
+
+@media (max-width: 1000px) { 
+      .header__fixed {
+      background-color: #424242;
+      color: #00302C;
+   }
+}
